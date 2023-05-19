@@ -1,4 +1,4 @@
-# Sparse_Graph_ALC
+# Sparse Graph agglomerative Likelihood Clustering
 
 #### step1 
 
