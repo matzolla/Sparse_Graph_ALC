@@ -4,8 +4,8 @@
 
 - We start by optimizing slightly the previous version of the agglomerative likelihood clustering available [here](https://github.com/lyelibi/ALC)
 
-`
-n_samples = 100
+
+`n_samples = 100
 n_features = 1000
 n_clusters= 12
 n_neighbors = 10
@@ -47,3 +47,5 @@ G = nx.from_scipy_sparse_matrix(graph)
 plt.figure()
 nx.draw(G, node_size =20, node_color = y)
 plt.show()`
+
+sggsgs
