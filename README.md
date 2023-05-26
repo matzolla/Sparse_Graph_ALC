@@ -24,7 +24,7 @@ No specific dependency is required for this code as it's primarily built from sc
 ### Getting started
 You can try the [demo file]() or you might want to tweak some parameters
 
-```
+```python
 n_samples = 100
 n_features = 1000
 n_clusters= 12
