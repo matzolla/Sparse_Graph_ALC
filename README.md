@@ -25,6 +25,15 @@ No specific dependency is required for this code as it's primarily built from sc
 You can try the [demo file]() or you might want to tweak some parameters
 
 ```
-python
+n_samples = 100
+n_features = 1000
+n_clusters= 12
+n_neighbors = 10
+X, y = make_blobs(n_samples = n_samples, n_features = n_features,centers=n_clusters, cluster_std=1, shuffle=False)
+
+
+
+graph = kneighbors_graph(X, n_neighbors, metric='cosine', mode='distance')
+graph_mat = graph.todense()
 
 ```
