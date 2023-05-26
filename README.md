@@ -9,6 +9,6 @@ $$ Likelihood= \frac{1}{2}\sum_{n_{s}>1}\left[ln\left(\frac{\epsilon}{w}\right) 
 
 ### Results
 
-|  Before clustering          | After clustering   |
-|---------------------------  |  ------------------|
-|                             |                    |
+|  Before clustering                                               |    After clustering                            |
+|---------------------------------------------------------------   |  --------------------------------------------- |
+| [Original](images/Original_graph.png)                            |        [result](images/results.png)            |
