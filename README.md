@@ -55,3 +55,4 @@ stop= time.time()
 
 G = nx.from_numpy_matrix(graphnet)
 ```
+The snippet above compute the different graph-clusters using the sparse ALC algorithm, (denoted here by the `graph_alc` function). We also used the `adjusted rand score` to measure the veracity of our algorithm. The [adjusted rand score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.adjusted_rand_score.html), computes a score ranging from `0.0` (poor clustering) to `1.0` very good clustering.
