@@ -20,3 +20,5 @@ You can clone the github locally using the command
 git clone git@github.com:matzolla/Sparse_Graph_ALC.git
 ```
 No specific dependency is required for this code as it's primarily built from scratch. But you might need to install `numpy`.
+
+### Getting started
