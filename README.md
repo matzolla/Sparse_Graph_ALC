@@ -37,3 +37,4 @@ graph = kneighbors_graph(X, n_neighbors, metric='cosine', mode='distance')
 graph_mat = graph.todense()
 
 ```
+You can tweak the hyper-parameters `n_samples`, `n_features`, `n_clusters` and `n_neighbors` to suit your need.
