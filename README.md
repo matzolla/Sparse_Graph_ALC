@@ -39,3 +39,19 @@ graph_mat = graph.todense()
 ```
 You can tweak the hyper-parameters `n_samples`, `n_features`, `n_clusters` and `n_neighbors` to suit your need. The snippet above is used to generate a sparse graph using the 
 `graph KNN` library available in `scikit-learn`
+
+```python
+graph_mat = graph.todense()
+
+
+sol1  = graph_alc(np.array(graph_mat))
+
+sol1.initializer()
+
+## computing the time
+start=time.time()
+graphnet=sol1.Alc()
+stop= time.time()
+
+G = nx.from_numpy_matrix(graphnet)
+```
