@@ -12,3 +12,10 @@ $$ Likelihood= \frac{1}{2}\sum_{n_{s}>1}\left[ln\left(\frac{\epsilon}{w}\right) 
 |  Before clustering                                               |    After clustering                            |
 |---------------------------------------------------------------   |  --------------------------------------------- |
 | ![Original](images/Original_graph.png)                           |        ![result](images/results.png)           |
+
+### Setup
+
+You can clone the github locally using the command
+```
+ok google
+```
