@@ -48,7 +48,7 @@ sol1  = graph_alc(np.array(graph_mat))
 
 sol1.initializer()
 
-## computing the time
+# computing the time
 start    = time.time()
 graphnet = sol1.Alc()
 stop     = time.time()
