@@ -119,9 +119,9 @@ class graph_alc:
         '''
         The ALC algorithm goes as follows:
 
-        1-  Randomly merge a community with the remaining communities and compute the change in Likelihood
-        2-  Select the communities whose change in likelihood  is the smallest (merge the communities)
-        3-  Iterate this process until no further clustering can be done
+          Randomly merge a community with the remaining communities and compute the change in Likelihood
+          Select the communities whose change in likelihood  is the smallest (merge the communities)
+          Iterate this process until no further clustering can be done
         '''
         ##### performing the clustering
 
