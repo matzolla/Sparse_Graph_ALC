@@ -11,9 +11,8 @@ from sklearn.datasets import make_blobs
 from sklearn.metrics.cluster import adjusted_rand_score
 from scipy.sparse.csgraph import connected_components
 import time
+
 ######### test examples ########################
-
-
 
 n_samples = 100
 n_features = 1000
