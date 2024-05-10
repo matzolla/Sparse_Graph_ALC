@@ -5,8 +5,6 @@ Author : Allassan Tchangmena, Lionel Yelibi, 2023, Spin City Lab.
 
 '''
 
-
-
 import numpy as np
 import random
 from collections import defaultdict
