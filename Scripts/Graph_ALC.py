@@ -13,7 +13,7 @@ class graph_alc:
 
     def __init__(self,corr_mat):
         
-        ## init
+        # init
 
         '''
         Variable description (global variables)
