@@ -1,6 +1,4 @@
 from Graph_ALC import graph_alc
-
-
 import numpy as np
 import random
 from collections import defaultdict
