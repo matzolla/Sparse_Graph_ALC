@@ -2,7 +2,6 @@
 '''
 Project: “Graph Agglomerative Likelihood Clustering”
 Author : Allassan Tchangmena, Lionel Yelibi, 2023, Spin City Lab.
-
 '''
 
 import numpy as np
