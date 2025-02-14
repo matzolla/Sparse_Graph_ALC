@@ -22,7 +22,7 @@ git clone git@github.com:matzolla/Sparse_Graph_ALC.git
 No specific dependency is required for this code as it's primarily built from scratch. But you might need to install `numpy`.
 
 ### Getting started
-You can try the [demo file]() or you might want to tweak some parameters
+You can try the [`demo file`]() or you might want to tweak some parameters
 
 ```python
 n_samples = 100
